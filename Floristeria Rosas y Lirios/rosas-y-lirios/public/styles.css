@@ -1,0 +1,270 @@
+body {
+    /* Estilos generales para el cuerpo de la página */
+    font-family: "mad galaxy demo", sans-serif;
+}
+
+header h1 {
+    /* Estilos específicos para el título en el encabezado */
+    font-family: "mad galaxy demo", sans-serif;
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(1, 7, 7, 0.521);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    
+    overflow: hidden;
+    background: linear-gradient(45deg, #ff009d, #6fff2c, #FFEB3B, #000980, #ff00aa, #073087);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+    padding: 10px;
+    
+}
+
+
+nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.component {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos generales para los botones de navegación */
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #fff; /* Color de texto normal */
+    background-color: #333; /* Color de fondo normal */
+    border-radius: 5px;
+    transition: background-color 5s ease, color 5s ease; /* Transición de color */
+}
+
+/* Cambios al pasar el ratón sobre los botones */
+nav a:hover {
+    background-color: #555; /* Nuevo color de fondo al pasar el ratón */
+    color: #fff; /* Nuevo color de texto al pasar el ratón */
+}
+.component {
+    display: none;
+}
+.logo {
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+#registrarse.banner {
+    background-color: #ffffff; /* Color corporativo */
+    color: #000000; /* Color de texto */
+    text-align: center;
+    padding: 50px 20px; /* Espaciado interno */
+}
+
+#registrarse.banner h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#registrarse.banner p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#registrarse.banner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registrarse.banner label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#registrarse.banner input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#registrarse.banner button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+}
+
+#registrarse.banner button:hover {
+    background-color: #e5e5e5; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.component {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+nav button {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agrega una transición suave al cambio de color de fondo */
+    background-color: white; /* Color de fondo blanco */
+}
+
+nav button:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+/* Estilo específico para el botón resaltado */
+button.resaltado {
+    background-color: #000000;
+    color: white;
+}
+/* Estilos para los botones de navegación */
+nav button {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agrega una transición suave al cambio de color de fondo */
+    background-color: white; /* Color de fondo blanco */
+    float: left; /* Establece la propiedad float a la izquierda */
+    margin-right: 10px; /* Agrega un margen derecho para separar los botones */
+}
+
+nav button:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+/* Estilo específico para el botón resaltado */
+button.resaltado {
+    background-color: #000000;
+    color: white;
+}
+
+/* Estilos para los botones de Iniciar Sesión y Registrarse */
+#btnIniciarSesion,
+#btnRegistrarse {
+    float: right; /* Establece la propiedad float a la derecha */
+    margin-right: 10px; /* Agrega un margen derecho para separar los botones */
+}
+/* Estilos para la barra de búsqueda */
+.search-container {
+    float: right;
+    margin-right: 450px;
+}
+
+.search-container input {
+    padding: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 4px;
+    border: none;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

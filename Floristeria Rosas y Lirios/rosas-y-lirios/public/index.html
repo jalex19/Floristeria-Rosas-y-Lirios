@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+   
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+    <title>React App</title>
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Floristeria Rosas y Lirios</title>
+</head>
+
+
+
+  
+ 
+
+<header>
+  <div>  
+     <marquee> <h1>Floristería Rosas y Lirios</h1></marquee>
+  </div>
+
+  <div>
+      <img src="Rosas-Y-Lirios.ico" alt="Logo de la floristería" class="logo">
+  </div>
+</header>
+
+<!-- En esta sección podemos agregar los botones de la pagina -->
+<nav>
+  <button onclick="mostrarSeccion('inicio')" id="btnInicio">Inicio</button>
+  <button onclick="mostrarSeccion('productos')" id="btnProductos">Productos</button>
+  <button onclick="mostrarSeccion('contacto')" id="btnContacto">Contacto</button>
+  <button onclick="mostrarSeccion('iniciarSesion')" id="btnIniciarSesion">Iniciar Sesión</button>
+  <button onclick="mostrarSeccion('registrarse')" id="btnRegistrarse">Registrarse</button>
+  <div class="search-container">
+      <input type="text" placeholder="Buscar..." id="searchInput">
+      <button onclick="buscar()">Buscar</button>
+  </div>
+  
+</nav>
+
+<!-- Sección para Inicio -->
+<section id="inicio" class="component">
+  <h2>Inicio</h2>
+  <p>Bienvenido a nuestra tienda de flores. Descubre la belleza de nuestras flores frescas.</p>
+</section>
+
+<!-- Sección para Productos -->
+<section id="productos" class="component">
+  <h2>Productos</h2>
+  <div class="products">
+   
+      <div class="product">
+          <img src="Imagenes/Rosas-Rojas-130.jpg" alt="Flor 1">
+          <h3>Rosas Rojas</h3>
+          <p>Precio: $30.000</p>
+          <button>Añadir al carrito</button>
+      </div>
+
+      <div class="product">
+          <img src="Imagenes/images130.jpg" alt="Flor 2">
+          <h3>Crisantemos</h3>
+          <p>Precio: $50.000</p>
+          <button>Añadir al carrito</button>
+      </div>
+
+      <div class="product">
+          <img src="Imagenes/unnamed130.jpg" alt="Flor 3">
+          <h3>Rosas Blancas</h3>
+          <p>Precio: $30.000</p>
+          <button>Añadir al carrito</button>
+      </div>
+      
+      <div class="product">
+          <img src="Imagenes/product_big_130.jpg" alt="Flor 4">
+          <h3>Rosas Amarillas</h3>
+          <p>Precio: $30.000</p>
+          <button>Añadir al carrito</button>
+      </div>
+  
+      <div class="product">
+          <img src="Imagenes/Claveles130.jpg" alt="Flor 5">
+          <h3>Claveles</h3>
+          <p>Precio: $40.000</p>
+          <button>Añadir al carrito</button>
+      </div>
+
+  </div>
+</section>
+
+<!-- Sección para contacto -->
+<section id="contacto" class="component">
+  <h2>Contacto</h2>
+  <p>¡Contáctanos para más información!</p>
+  <address>
+      Dirección: 
+  </address>
+  <p>Email: jaulalexander@gmail.com</p>
+  <p>Teléfono: 123-456-7890</p>
+</section>
+
+
+<!-- Sección para Iniciar Sesion -->
+<section id="iniciarSesion" class="component">
+  <h2>Iniciar Sesión</h2>
+  <form id="formIniciarSesion">
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario" name="usuario" required>
+
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required>
+
+      <button type="submit">Iniciar Sesión</button>
+  </form>
+</section>
+
+<!-- Sección para Registrarse -->
+<section id="registrarse" class="component banner">
+<div class="banner-content">
+  <h2>Únete a Nosotros</h2>
+  <p>¡Regístrate para obtener acceso a ofertas exclusivas y más!</p>
+  <form id="formRegistrarse">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="contrasenaRegistro">Contraseña:</label>
+      <input type="password" id="contrasenaRegistro" name="contrasenaRegistro" required>
+
+      <button type="submit">Registrarse</button>
+  </form>
+</div>
+</section>
+<head>
+  <script src="index.js"></script>
+</head>
+
+</body>
+
+ 
+  </body>
+</html>
